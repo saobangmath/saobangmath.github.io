@@ -1,0 +1,10 @@
+h1 {
+	text-orientation: horizontal;
+	text-align: center;
+	font-size: 200;
+}
+img{
+	height: "10";
+	width: 100%;
+	shape-rendering: round;
+}
