@@ -4,7 +4,8 @@ h1 {
 	font-size: 200;
 }
 img{
-	height: "10";
-	width: 100%;
-	shape-rendering: round;
+	height: 500px;
+	width: 500px;
+	border-radius: 50%;
+	text-align: center;
 }
