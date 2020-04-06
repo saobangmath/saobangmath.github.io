@@ -9,18 +9,29 @@
 
 		<link rel="stylesheet" type="text/css" href="./css/head.css">
 		
-		<title>Anh Tai Tran</title>>
+		<title>Anh Tai Tran</title>
 	</head>
 	<body>
-
+		<nav id ="MyNavBar">
+			<a class = "nav-item nav-link" href = "#home">
+				<strong>home</strong>
+			</a>
+			<a class = "nav-item nav-link" href = "#image">
+				<strong>image</strong>
+			</a>
+			<a class = "nav-item nav-link" href = "#button">
+				<strong>submit</strong> 
+			</a>
+		</nav>
 		<h1>
 			Welcome to my personal website
 		</h1>
 				 
-
- 		<img src="./images/tourist.jpg" alt = "My image"></img>
+		<div class = "section fp-auto-height-responsive image" id = "image">
+ 			<img src="./images/tourist.jpg" alt = "My image"></img>
+ 		</div>
 		
-		<div>
+		<div class = "section fp-auto-height-responsive home" id = "home">
 			<p>
 				Hi there,
 			</p> 
@@ -31,13 +42,13 @@
 				Besides my studying time, I like running, singing some of my favorite song and reading book!
 			</p>
 		</div>
-		
+		<!-- personal social media -->
 		<div>
 			<div>
 				Here is my contact: 
 			</div>
 			<p>
-				<a http-equiv="refresh" href = "https://www.facebook.com/profile.php?id=100004670776578"
+				<a http-equiv="refresh" href= "https://www.facebook.com/profile.php?id=100004670776578"
 				target = "_blank"> 
 					My Facebook 
 				</a>
@@ -49,17 +60,27 @@
 					My Linkedin 
 				</a>
 			</p>
+
+			<p title="Github">
+				<a http-quiv="refresh" href = "https://github.com/saobangmath"
+				target="_blank">
+					My Github
+				</a>
+			</p>
 		</div>
+		<!-- my resume -->
 		<div>
 			<p>Also Checkout my resume: </p>
 			<a href = "./upload/Tran Anh Tai.pdf" target = "_blank"> 
 				My Resume
 			</a>
 		</div>
-		<!-- <iframe src = "https://github.com/saobangmath"></iframe> -->
+		<!-- for testing only haha -->
 		<p id="demo">A Paragraph</p>
-		
-		<button type="button" onclick = "onClick()">Try it</button>
+		<button class = "#button" id = "button" 
+				type="button" onclick = "onClick()">Try it
+		</button>
 	</body>
+	<!-- external js scripts  -->
 	<script src = "./js/scripts.js"></script>
 </html>
