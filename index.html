@@ -12,38 +12,53 @@
 		<title>Anh Tai Tran</title>
 	</head>
 	<body>
-		<nav id ="MyNavBar">
-			<a class = "nav-item nav-link" href = "#home">
-				<strong>home</strong>
-			</a>
-			<a class = "nav-item nav-link" href = "#image">
-				<strong>image</strong>
-			</a>
-			<a class = "nav-item nav-link" href = "#button">
-				<strong>submit</strong> 
-			</a>
-		</nav>
-		<h1>
-			Welcome to my personal website
-		</h1>
-				 
-		<div class = "section fp-auto-height-responsive image" id = "image">
- 			<img src="./images/tourist.jpg" alt = "My image"></img>
- 		</div>
-		
+		<!-- static navigation bar -->
+		<div class = "navbar" style ="height:60px"><ul>
+			<li><a class = "nav-item nav-link" href = "#home">Home</a></li>
+			
+			<li><a class = "nav-item nav-link" href = "#about">About</a></li>
+			
+			<li><a class = "nav-item nav-link" href = "#projects">Projects</a></li>
+			
+			<li><a class = "nav-item nav-link" href = "#contact">Contact</a></li>
+		</ul></div>		 
+		<!--  background image-->
 		<div class = "section fp-auto-height-responsive home" id = "home">
-			<p>
+ 			<img src="./images/suaflower.jpg" alt = "My background"></img> 
+ 		</div>
+ 		<!-- portrait image -->
+ 		<div class = "section fp-auto-height-responsive home" id = "portrait">
+ 			<img src="./images/tourist.jpg" alt = "My portrait"
+ 			 	 style="border-radius:50%;height:300px;width:300px;text-align:center;">
+ 			</img> 
+ 			<h1>
+				Hi there, I am Tran Anh Tai
+			</h1> 
+ 		</div>
+
+		<!-- About -->
+		<div class = "section fp-auto-height-responsive home" id = "about" style="height:100%; position: relative;">
+			<h1>
 				Hi there,
-			</p> 
+			</h1> 
 			<p>
-				I am Tran Anh Tai who is currently an undergraduate student studied in Nanyang Technological University with major in Computer Science. 
+				I am Tran Anh Tai who is currently an undergraduate student studied in <strong>Nanyang Technological University</strong> with major in <strong>Computer Science</strong>. 
 			</p>
 			<p>
-				Besides my studying time, I like running, singing some of my favorite song and reading book!
+				Besides my studying time, I like
 			</p>
+			<ul>
+				<p>Running</p>
+				<p>Playing Football</p>
+				<p>Reading books</p>
+			</ul>
+		</div>
+		<!-- my projects -->
+		<div class = "section fp-auto-height-responsive projects" id = "projects" style="height:100;position:relative;">
+			
 		</div>
 		<!-- personal social media -->
-		<div>
+		<div class = "section fp-auto-height-responsive contact" id =  "contact" style="height:100%;position:relative;">
 			<div>
 				Here is my contact: 
 			</div>
