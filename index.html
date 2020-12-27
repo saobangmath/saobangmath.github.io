@@ -13,7 +13,7 @@
 	</head>
 	<body>
 		<!-- static navigation bar -->
-		<div class = "navbar" style ="height:60px"><ul>
+		<div class = "navbar" style ="height:60px;width:100%"><ul>
 			<li><a class = "nav-item nav-link" href = "#home">Home</a></li>
 			
 			<li><a class = "nav-item nav-link" href = "#about">About</a></li>
@@ -26,75 +26,65 @@
 		<div class = "section fp-auto-height-responsive home" id = "home">
  			<img src="./images/suaflower.jpg" alt = "My background"></img> 
  		</div>
- 		<!-- portrait image -->
- 		<div class = "section fp-auto-height-responsive home" id = "portrait">
+ 	
+ 		<!-- About -->
+ 		<div class = "section fp-auto-height-responsive home" id = "about"
+ 			 style="background-color:#EEEEC3">
  			<img src="./images/tourist.jpg" alt = "My portrait"
- 			 	 style="border-radius:50%;height:300px;width:300px;text-align:center;">
- 			</img> 
- 			<h1>
-				Hi there, I am Tran Anh Tai
-			</h1> 
+ 			 	 style="border-radius:50%;height:100%;width:200px;"> 
+			<h1>
+				Hi there, 
+			</h1>	
+			
+			<p>
+				I am Tran Anh Tai who is currently an undergraduate student studied in 
+				<strong>Nanyang Technological University</strong> with major in <strong>Computer Science</strong>
+			</p>
  		</div>
 
-		<!-- About -->
-		<div class = "section fp-auto-height-responsive home" id = "about" style="height:100%; position: relative;">
-			<h1>
-				Hi there,
-			</h1> 
-			<p>
-				I am Tran Anh Tai who is currently an undergraduate student studied in <strong>Nanyang Technological University</strong> with major in <strong>Computer Science</strong>. 
-			</p>
-			<p>
-				Besides my studying time, I like
-			</p>
-			<ul>
-				<p>Running</p>
-				<p>Playing Football</p>
-				<p>Reading books</p>
-			</ul>
-		</div>
+	
 		<!-- my projects -->
-		<div class = "section fp-auto-height-responsive projects" id = "projects" style="height:100;position:relative;">
-			
-		</div>
-		<!-- personal social media -->
+
+		<!-- personal Contact -->
 		<div class = "section fp-auto-height-responsive contact" id =  "contact" style="height:100%;position:relative;">
-			<div>
+			<h1>
 				Here is my contact: 
-			</div>
-			<p>
+			</h1>
+			<div style="position:center">
 				<a http-equiv="refresh" href= "https://www.facebook.com/profile.php?id=100004670776578"
 				target = "_blank"> 
 					My Facebook 
 				</a>
-			</p>
+			</div>
 
-			<p title="Linkedin">
+			<div title="Linkedin">
 				<a http-equiv="refresh" href = "https://www.linkedin.com/in/tran-anh-tai-7b8aa2173/"
 				target = "_blank">
 					My Linkedin 
 				</a>
-			</p>
+			</div>
 
-			<p title="Github">
+			<div title="Github">
 				<a http-quiv="refresh" href = "https://github.com/saobangmath"
 				target="_blank">
 					My Github
 				</a>
-			</p>
+			</div>
 		</div>
 		<!-- my resume -->
 		<div>
 			<p>Also Checkout my resume: </p>
-			<a href = "./upload/Tran Anh Tai.pdf" target = "_blank"> 
+			<a href = "./upload/Tran_Anh_Tai.pdf" target = "_blank"> 
 				My Resume
 			</a>
 		</div>
-		<!-- for testing only haha -->
-		<p id="demo">A Paragraph</p>
-		<button class = "#button" id = "button" 
-				type="button" onclick = "onClick()">Try it
-		</button>
+		
+		<a href="#home">
+			<div class="center-wrap" style = "position:right">
+				<div class = "center">
+					<img src = "./images/up.png" alt="up" id = "up_arrow"></img>
+		</a>
+		
 	</body>
 	<!-- external js scripts  -->
 	<script src = "./js/scripts.js"></script>
