@@ -4,6 +4,8 @@
   --site-muted: #6b7280;
   --site-primary: #2b6cb0;
   --site-primary-dark: #1f4f87;
+  /* Space between consecutive paragraphs (tune in one place) */
+  --paragraph-gap: 2rem;
 }
 
 html {
@@ -53,4 +55,13 @@ body {
 
 footer {
   background: #fff;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: var(--paragraph-gap);
+}
+
+p:last-child {
+  margin-bottom: 0;
 }
