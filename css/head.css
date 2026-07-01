@@ -65,3 +65,18 @@ p {
 p:last-child {
   margin-bottom: 0;
 }
+
+.math-expr {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Times New Roman", serif;
+  font-size: 1.05em;
+  padding: 0.15em 0.45em;
+  background: #eef2f7;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.3rem;
+  white-space: nowrap;
+  letter-spacing: 0.03em;
+}
+
+.math-expr var {
+  font-style: italic;
+}
